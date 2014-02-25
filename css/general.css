@@ -1,0 +1,13 @@
+img {
+	padding-top: 6px;
+}
+
+#home {
+	float: left;
+	width: 60%;
+}
+
+.about-img {
+	float: right;
+	width: 40%;
+}

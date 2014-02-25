@@ -3,10 +3,32 @@
 <head>
 <meta charset="UTF-8">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen"/>
 	<link href="css/navbar.css" rel="stylesheet">
+	<link href="css/general.css" rel="stylesheet">
 <title>John Redfern | Painter</title>
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $(".fancybox").fancybox({
+        openEffect    : 'none',
+        closeEffect    : 'none',
+        helpers: {
+            thumbs: {
+                width: 100,
+                height: 100
+            }
+        }
+    });
+});
+</script>	
 </head>
 <body>
+
 <div class="top">
    <h1>John Redfern</h1>
    <h4>FINE ARTIST | PAINTER</h4>
@@ -27,18 +49,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Painting <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Landscapes</a></li>
+            <li><a href="#">Portrait</a></li>
+            <li><a href="#">Animals</a></li>
           </ul>
         </li>
       </ul>
@@ -47,6 +65,52 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="container"> <!-- Introduction section --> 
+	<div class="col-xs-12 col-s-12 col-md-12 col-lg-12" id="home">
+		<h1 class="main-head">About</h1>
+				<p class="p-home">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+				</p>				
+	</div>
+	<div class="about-img">
+		<img src="http://placehold.it/300x300" class="float-about">
+	</div>
+</div>
+
+
+<div class="container portfolio" id="portfoliogallery"> <!-- Portfolio section --> 
+		<h1 class="portfolio-head">Gallery</h1>
+		<div class="portfolio-imgs">
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+		
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+		
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+		
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+	
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+		
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+		
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+		
+		<a class="fancybox" rel="gallery1" href="http://placehold.it/150x150" title="piece title"><img src="http://placehold.it/150x150" alt="test" /></a>
+	
+	</div>
+</div>
+
+<div class="container purple-bg" id="contactinfo">  <!-- Contact section --> 
+	<div class="contact">
+		<h1 class="main-head">Contact Info</h1>
+		<p>I'm currently available and interested in all types of work. I make websites, create print pieces and provide branding services. If you're interested in learning more about me and my work, below are all of my social media channels and ways to contact me. 
+		</p>
+		<div class="contact-icons">
+			<a href="http://www.behance.net/stephaniecsanky"><img src="img/behance.jpg" alt="behance"></a></li>
+			<a href="http://www.linkedin.com/pub/stephanie-csanky/28/a07/274"><img src="img/linkedin.jpg" alt="LinkedIn"></a></li>
+			<a href="mailto:csankystephanie@gmail.com"><img src="img/e-mail.jpg" alt="E-mail Me!"></a></li>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
