@@ -8,6 +8,20 @@ body {
 	margin: 0;
 }
 
+@media (min-width: 200px) and (max-width: 300px) {
+
+	.brand-img {
+		width: 10%;
+		height: 10%;
+	}
+
+	.navbar-brand {
+		padding: 0;
+		float:none;
+	}
+
+}
+
 img {
 	padding-top: 6px;
 }
@@ -22,14 +36,63 @@ img {
 	width: 40%;
 }
 
-.screenshots {
-	text-align: center;
+#screenshots { /* Screenshots carousel */
+	text-align:center;
 	padding-top: 35px;
+
 	padding-bottom: 20px;
 	width: 100%;
-	background-color: #FFF;
+	background-color:#FFF;
 }
 
-img-slide {
+.flex-control-nav { 
+	position: relative; 
+}
+
+.img-slide {
 	width: 100%;
+}
+
+#pull-right {
+	text-align:right;
+	float: right;
+}
+
+#footer {
+	font-size: 14px;
+	line-height: 12px;
+	color:#000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#footer a {
+	color: #fff;
+	text-decoration:underline;
+
+}
+
+#footer a:hover {
+	color: #06c;
+	text-decoration:underline;
+}
+
+
+
+
+@media (min-width: 1100px) and (max-width: 1900px) {
+
+	.navbar-nav > li > a {
+		font-size: 20px;
+		text-align:center;
+		padding: 20px 20px;
+	}
+	
+	footer {
+		font-family: 'Gotham-Light';
+		font-size: 20px;
+	}
+	
 }
