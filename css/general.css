@@ -21,3 +21,15 @@ img {
 	float: right;
 	width: 40%;
 }
+
+.screenshots {
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 20px;
+	width: 100%;
+	background-color: #FFF;
+}
+
+img-slide {
+	width: 100%;
+}
