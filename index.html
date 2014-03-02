@@ -3,17 +3,22 @@
 <head>
 <meta charset="UTF-8">
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen"/>
-	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen"/>
-	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen"/>
 	<link href="css/navbar.css" rel="stylesheet">
+	<link href="flexslider/flexslider.css" rel="stylesheet">
 	<link href="css/general.css" rel="stylesheet">
 <title>John Redfern | Painter</title>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
-	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
-	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+	<script src="js/slide.js"></script>
+	<script src="flexslider/jquery.flexslider.js"></script>
+	<script type='text/javascript'> 
+		$(document).ready(function(){
+			$("#screenshots").flexslider({
+				animation: "slide"
+			});
+		});
+	</script>	
 	<script type="text/javascript">
 	$(document).ready(function() {
     $(".fancybox").fancybox({
@@ -62,12 +67,25 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<!-- INSERT IMAGE SLIDER HERE, OR U.B.'s DVD SHOW -->
-
+<!-- INSERT IMAGE SLIDER HERE OF 5 RECENTS PIECES, OR U.B.'s DVD SHOW -->
+<section id="screenshots">
+			<div class="container img-slide">		
+				<div id="screenshots">
+					<ul class="slides">
+						<li><img src="img/shop.png" alt="Shop"/></li>
+						<li><img src="img/createaccount.png" alt="Create Account"/></li>
+						<li><img src="img/login.png" alt="Login"/></li>
+						<li><img src="img/profile.png" alt="Profile"/></li>
+					</ul>
+				</div>		
+				<!-- ADD BUTTONS, needs js -->
+			</div>
+		</section>
+		
 
 
 <div class="container"> <!-- Introduction section --> 
-	<div class="col-xs-12 col-s-12 col-md-12 col-lg-12" id="home">
+	<div class="col-xs-12 col-s-12 col-md-10 col-lg-12" id="home">
 		<h1 class="main-head">About</h1>
 				<p class="p-home">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
 				</p>				
