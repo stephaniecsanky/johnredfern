@@ -28,19 +28,20 @@ img {
 
 #home {
 	float: left;
-	width: 60%;
+	width: 50%;
 }
 
 .about-img {
 	float: right;
-	width: 40%;
+	width: 50%;
+}
+
+.about-section {
+	padding-top: 35px;
 }
 
 #screenshots { /* Screenshots carousel */
 	text-align:center;
-	padding-top: 35px;
-
-	padding-bottom: 20px;
 	width: 100%;
 	background-color:#FFF;
 }
