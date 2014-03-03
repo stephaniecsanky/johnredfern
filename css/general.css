@@ -26,6 +26,14 @@ body {
 	padding-left: 0;
 }
 
+.navbar-icon {
+	max-width: 70px;
+	max-height: 70px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	float:right;
+}
+
 .main-head {
 	padding-top: 20px;
 }
