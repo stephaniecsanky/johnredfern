@@ -34,6 +34,10 @@ body {
 	float:right;
 }
 
+figcaption {
+	width: 150px;	
+}
+
 .main-head {
 	padding-top: 20px;
 }

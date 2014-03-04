@@ -90,12 +90,18 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
-@media screen and (max-width: 860px) {
+@media (min-width: 200px) and (max-width: 759px) {
+  .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top: 300px;}
+  .flex-direction-nav .flex-next { opacity: 1; right: 10px; top: 300px;}
+}
+
+@media (min-width: 760px) and (max-width: 859px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
 
-@media screen and (max-width: 1260px) {
-  .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top: 350px;}
-  .flex-direction-nav .flex-next { opacity: 1; right: 10px; top: 350px;}
+
+@media (min-width: 8600px) (max-width: 1260px) {
+  .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top: 440px;}
+  .flex-direction-nav .flex-next { opacity: 1; right: 10px; top: 440px;}
 }
