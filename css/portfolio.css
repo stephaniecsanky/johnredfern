@@ -70,7 +70,6 @@ h2 {
 #work-wrap {
   background-color: #fff;
   position: relative;
-
   box-shadow: 3px 1px 6px
 }
 
@@ -87,7 +86,7 @@ h2 {
 
 .flex-img {
   width: 100%;
-
+	max-width: 700px;
 }
 
 .video {
@@ -347,16 +346,13 @@ h3 {
 }
 
 .work-p {
-  padding-left: 20px;
-
-  text-align: left;
+  text-align: center;
 }
 
 
 .work-nav li{
   display: inline;
   padding: 10px;
-
   list-style-type: none;
 
   letter-spacing: .1px;
@@ -364,7 +360,15 @@ h3 {
   text-align: center;
 }
 
+.work-nav li a {
+	color:#369;	
+}
 
+.work-nav li a:hover {
+	text-decoration:underline;
+	color:#333;
+}
+	
 .work-div {
   top: 0;
   width: 100%;
