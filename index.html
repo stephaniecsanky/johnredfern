@@ -1,17 +1,30 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>John Redfern | Painter</title>
+	
+	<!--Mobile Optimization -->
+
+  	<meta name="handheldfriendly" content="true">
+  	<meta name="mobileoptimized" content="240">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/navbar.css" rel="stylesheet">
 	<link href="flexslider/flexslider.css" rel="stylesheet">
 	<link href="css/general.css" rel="stylesheet">
-<title>John Redfern | Painter</title>
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<link href="css/portfolio.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
 
+	<!-- JAVASCRIPT -->
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="js/jquery.smooth-scroll.min.js"></script>
 	<script src="js/slide.js"></script>
 	<script src="flexslider/jquery.flexslider.js"></script>
+	<script src="js/work-div.js"></script>
 	<script type='text/javascript'> 
 		$(document).ready(function(){
 			$("#screenshots").flexslider({
@@ -36,9 +49,9 @@
 </head>
 <body>
 
-<div class="top">
+<div class="top" id="top">
    <h1>John Redfern</h1>
-   <h4>FINE ARTIST | PAINTER</h4>
+   <h4>FINE ARTIST & PAINTER</h4>
 </div>
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
@@ -74,43 +87,33 @@
 			<div class="container img-slide">		
 				<div id="screenshots" class="img-responsive">
 					<ul class="slides">
-						<li><img src="http://placehold.it/550x300"></li>
-						<li><img src="http://placehold.it/550x300"></li>
-						<li><img src="http://placehold.it/550x300"></li>
-						<li><img src="http://placehold.it/550x300"></li>
-						<li><img src="http://placehold.it/550x300"></li>
+						<li><img src="http://placehold.it/550x250"></li>
+						<li><img src="http://placehold.it/550x250"></li>
+						<li><img src="http://placehold.it/550x250"></li>
 					</ul>
 				</div>		
 				<!-- ADD BUTTONS, needs js -->
 			</div>
 		</section>
-		
-
-
 <div class="container about-section"> <!-- Introduction section -->
 	<h1 class="main-head">About</h1> 
-	<div id="home" class="col-xs-12 col-s-6 col-md-6 col-lg-6">
-				<p class="p-home">John Redfern is a painter originating from Brantford, Ontario. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>				
-				<p>
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-				</p>
-				<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-				</p>
+	<div id="home" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<p class="p-home">John Redfern is a painter originating from Brantford, Ontario. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>				
+			<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			</p>
 	</div>
-	<div class="about-img col-xs-12 col-s-6 col-md-6 col-lg-6">
+	<div class="about-img col-xs-12 col-sm-6 col-md-6 col-lg-6">
 		<img src="http://placehold.it/300x300" class="float-about img-responsive" style="center">
 	</div>
 </div>
 
-
-
 <div id="footer">
 	<div id="footerleft">
-	<p id="copyright">&copy; 2014 John Redfern. All Rights Reserved</p>
+		<p id="copyright">&copy; 2014 John Redfern. All Rights Reserved</p>
 	</div>
-	<div class="clear">
+	<p id="pull-right">
+		<a href="#top">Back to Top</a>
+	</p>
 </div>
-
 </body>
 </html>
