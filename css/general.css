@@ -51,9 +51,12 @@ figcaption {
 }
 
 .main-head {
-	padding-top: 10px;
+	padding-top: 25px;
 }
 
+#home {
+	padding-top: 10px;
+}
 
 #screenshots img {
 	width: 100%;
