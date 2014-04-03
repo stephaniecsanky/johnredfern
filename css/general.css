@@ -54,6 +54,12 @@ figcaption {
 	padding-top: 25px;
 }
 
+.video-img {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
 #home {
 	padding-top: 10px;
 }
