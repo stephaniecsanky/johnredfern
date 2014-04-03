@@ -46,6 +46,12 @@ h1, h2, h3, h4 {
 	float:right;
 }
 
+.navbar-default .navbar-nav > li > a:hover{
+	color:#333;
+	opacity:1;
+	text-decoration:underline;
+}
+
 figcaption {
 	width: 150px;	
 }
