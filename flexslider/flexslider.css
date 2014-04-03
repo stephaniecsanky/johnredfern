@@ -18,7 +18,7 @@
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+/* .flex-direction-nav {margin: 0; padding: 0; list-style: none; display: none;} */
 
 /* Icon Fonts
 *********************************/
@@ -60,16 +60,16 @@ html[xmlns] .slides {display: block;}
 .carousel li { margin-right: 5px; }
 
 /* Direction Nav */
-.flex-direction-nav {*height: 0;}
+.flex-direction-nav {*height: 0; display: none;}
 .flex-direction-nav a  { display: block; width: 40px; height: 50px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
 .flex-direction-nav .flex-prev {text-align: left; top: 40%; opacity: 1; left:5px;}
 .flex-direction-nav .flex-next {text-align: right; opacity:1; top:40%; right:5px;}
 .flexslider:hover .flex-prev { opacity: 0.7; left: 10px; }
-.flexslider:hover .flex-next { opacity: 0.7; right: 10px; }
+.flexslider:hover .flex-next { opacity: 0.7; right: 10px; } 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
 .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
 .flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 40px; display: inline-block; content: '\f001'; }
-.flex-direction-nav a.flex-next:before  { content: '\f002'; }
+.flex-direction-nav a.flex-next:before  { content: '\f002'; } */
 
 /* Pause/Play */
 .flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
@@ -90,7 +90,7 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
-@media (min-width: 200px) and (max-width: 278px) {
+/* @media (min-width: 200px) and (max-width: 278px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top: 24%;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px; top: 24%;}
 }
@@ -120,3 +120,4 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top:40%;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px; top:40%;}
 }
+*/
