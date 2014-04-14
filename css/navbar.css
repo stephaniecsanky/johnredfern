@@ -4,15 +4,10 @@ body {
 }
 
 .navbar-default {
-	background-color:#999;
+	background-color:#CCC;
 	border: none;
 	border-radius: 0;
 	color:#000;
-}
-
-.top h1 {
-	font-family: 'Arizonia', cursive;
-	font-size: 40px;
 }
 
 .navbar-brand {
@@ -21,10 +16,6 @@ body {
 
 .navbar-nav li a:hover {
 	text-decoration:underline;
-}
-
-.navbar {
-	background-color:#CCC;
 }
 
 .navbar-toggle {
@@ -41,14 +32,24 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+ 
+ 
+ /* TOP SECTION WITH NAME */
 .top {
 	text-align:center;
-	color:#666;
-	background-color:#fff;
+	color:#FFF;
+	background-color:#0F5386;
 	padding: 0;
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 6px;
+}
+
+.top h1 {
+	font-family: 'Arizonia', cursive;
+	font-size: 40px;
 }
 
 .top h4 {
-	color: #000;
+	color: #FFF;
 }

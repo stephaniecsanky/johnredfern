@@ -13,7 +13,6 @@
 body {
   margin:0;
   padding: 0;
-
   background-image: url('../img/background-image.jpg');
   background-repeat: no-repeat;
   background-size: 800%;
@@ -21,39 +20,12 @@ body {
   background-attachment: fixed;
 }
 
-@media only screen and (min-width: 30em){
-  body {
-    background-size: 400%;
-  }
-}
-
-@media only screen and (min-width: 40em){
-  body{
-    background-size: 300%;
-  }
-}
-
-@media only screen and (min-width: 50em){
-  body{
-    background-size: 300%;
-  }
-}
-
-@media only screen and (min-width: 60em){
-  body{
-    background-size: 200%;
-  }
-}
-
 /*LINKS*/
-
 a:hover,
 a:focus,
 a:active {
-
   -webkit-transition:all 0.3s ease-in-out;
   transition:all 0.3s ease-in-out;
-
   opacity: 0.4;
 }
 
@@ -64,13 +36,12 @@ h2 {
   font-size: 3rem;
   font-weight: 400;
   letter-spacing: .5px;
-
 }
 
 #work-wrap {
   background-color: #fff;
   position: relative;
-  box-shadow: 3px 1px 6px
+  box-shadow: 1px 1px 6px
 }
 
 #work {
@@ -78,9 +49,21 @@ h2 {
   /*position: absolute;*/
   background-color: #E4E4E4;
   top: 0;
-
   padding: 25px;
+}
 
+.work-nav {
+	text-align:center;	
+	margin-right: 35px;
+}
+
+.work-nav > li > a {
+	color:#06C;
+	padding: 0px 5px;	
+}
+
+.work-nav > li > a:hover {
+	color:#000;
 }
 
 .flex-img {
@@ -88,45 +71,6 @@ h2 {
 	max-width: 700px;
 }
 
-.video {
-  position: relative;
-  padding-bottom: 56.2%;
-  width: 100%;
-}
-
-.video iframe {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-}
-
-
-/*----------------------------------------------------------------------QUOTES*/
-
-#quote {
-  background-color: #333;
-  color: #fff;
-  padding: 15px;
-}
-
-blockquote {
-  padding:5px;
-  margin: 10px;
-  font-weight: 300;
-  font-size: .9rem;
-}
-
-cite {
-  font-style: italic;
-  font-weight: 300;
-  font-size: .9rem;
-  padding: 0 0 0 40px;
-}
 
 /*-----------------------------------------------------------------NAVIGATION */
 
