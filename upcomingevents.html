@@ -2,18 +2,36 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>John Redfern | Contact</title>
+	<title>John Redfern | Shows</title>
+	
+	<!--Mobile Optimization -->
 
+  	<meta name="handheldfriendly" content="true">
+  	<meta name="mobileoptimized" content="240">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- CSS -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/navbar.css" rel="stylesheet">
+	<link href="flexslider/flexslider.css" rel="stylesheet">
 	<link href="css/general.css" rel="stylesheet">
-	<link href="css/portfolio.css" rel="stylesheet">	
+	<link href="css/portfolio.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-	
+
+	<!-- JAVASCRIPT -->
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<script src="js/footer-toggle-hybrid.js"></script>
 	<script src="js/jquery.smooth-scroll.min.js"></script>
+	<script src="js/footer-toggle-hybrid.js"></script>
+	<script src="flexslider/jquery.flexslider.js"></script>
+	<script src="js/work-div.js"></script>
+	<script type='text/javascript'> 
+		$(document).ready(function(){
+			$("#screenshots").flexslider({
+				animation: "slide"
+			});
+		});
+	</script>	
 	<script type="text/javascript">
 	$(document).ready(function() {
     $(".fancybox").fancybox({
@@ -31,11 +49,12 @@
 </head>
 <body>
 
-<div class="top">
+<div class="top" id="top">
    <h1>John Redfern</h1>
    <h4>FINE ARTIST & PAINTER</h4>
 </div>
-<nav class="navbar navbar-default" role="navigation">
+
+<nav class="navbar navbar-default" role="navigation">  
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -45,58 +64,61 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
      	 <ul class="nav navbar-nav">
-     	 <li><a href="index.html">Home</a></li>
+     	 <li><a href="#">Home</a></li>
      	 <li><a href="landscapes.html">Landscapes</a></li>
      	 <li><a href="portraits.html">Portraits</a></li>
      	 <li><a href="wildlife.html">Wildlife</a></li>
-		 <li><a href="upcomingevents.html">Shows</a></li>
-		<li class="active"><a href="contact.html">Contact</a></li>
+		 <li class="active"><a href="upcomingevents.html">Shows</a></li>
+		<li><a href="contact.html">Contact</a></li>
       </ul>
-	  <a href="http://ca.linkedin.com/pub/john-redfern/11/215/13"><img src="img/linkedin.png" alt="LinkedIn" class="navbar-icon"></a>
-      
+	  	  <a href="http://ca.linkedin.com/pub/john-redfern/11/215/13"><img src="img/linkedin.png" alt="LinkedIn" class="navbar-icon"></a>   
     </div><!-- /.navbar-collapse -->
+
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container purple-bg" id="contactinfo">  <!-- Contact section --> 
-	<div class="contact">
-		<h1 class="main-head">Contact</h1>
-		<p>Something about whether or not you are accepting commissions here?
-		</p>
-	
-		<br><p>Please use the form below to directly contact John Redfern through e-mail.</p>
-		<form>
-			Your E-mail Address: <input type="text"><br/>
-			Name: <input type="text"><br/>
-			What is your question?
-			<select>
-				<option>I would like to inquire about a painting</option>
-				<option>There is an issue with this website</option>
-				<option>Other (please explain below)</option>
-			</select><br/>
-			Please tell us more about your situation:<br/>
-			<textarea rows="10" cols="50"></textarea><br/><br>
-			<input type="button" class="btn-default btn-sm btn-contact" value="Submit Message" onClick="alert('Your information has been sent')">
-		</form>
 
-		
+<!-- UPCOMING SHOWS -->
+<div class="container about-section"> 
+	<h1 class="main-head">Upcoming Shows</h1> 
+	<div id="home" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<!-- MAYBE INSERT A TABLE HERE OR COLUMNS -->
+			
 	</div>
+	
+	
+	
+	
+	<!-- <div class="about-img col-xs-12 col-sm-6 col-md-6 col-lg-6">
+		<img src="http://placehold.it/200x200" class="float-about img-responsive" style="center">
+	</div> -->
+</div>
+
+<!-- PAST SHOWS -->
+<div class="container about-section"> 
+	<h1 class="main-head">Recent Shows</h1> 
+	<div id="home" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<!-- MAYBE INSERT A TABLE HERE OR COLUMNS -->
+			
+	</div>
+	<!-- <div class="about-img col-xs-12 col-sm-6 col-md-6 col-lg-6">
+		<img src="http://placehold.it/200x200" class="float-about img-responsive" style="center">
+	</div> -->
 </div>
 
 <div id="footer">
 	<div id="footerleft">
-		<p id="copyright">&copy; 2014 John Redfern. All Rights Reserved</p>
+		<p id="copyright">&copy; 2014 John Redfern. All Rights Reserved.</p>
 	</div>
 	<p id="pull-right">
 		<a href="#top">Back to Top</a>
 	</p>
 </div>
-
 </body>
 </html>
+

@@ -18,15 +18,7 @@ body {
   background-size: 800%;
   background-position: 0 0;
   background-attachment: fixed;
-}
 
-/*LINKS*/
-a:hover,
-a:focus,
-a:active {
-  -webkit-transition:all 0.3s ease-in-out;
-  transition:all 0.3s ease-in-out;
-  opacity: 0.4;
 }
 
 /*------------------------------------------------------------------------WORK*/
@@ -47,7 +39,6 @@ h2 {
 #work {
   text-align: center;
   /*position: absolute;*/
-  background-color: #E4E4E4;
   top: 0;
   padding: 25px;
 }
