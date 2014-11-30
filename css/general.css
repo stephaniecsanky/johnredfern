@@ -63,6 +63,16 @@ h1, h2, h3, h4 {
 	padding-top: 25px;
 }
 
+.homeimg {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align:center;
+}
+
+.homeimg > ul > li {
+	list-style-type:none;
+}
+
 /* VIDEO ON HOMEPAGE */
 .video-img {
 	margin-left: 10%;

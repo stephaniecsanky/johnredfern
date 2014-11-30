@@ -13,11 +13,7 @@
 body {
   margin:0;
   padding: 0;
-  background-image: url('../img/background-image.jpg');
-  background-repeat: no-repeat;
-  background-size: 800%;
-  background-position: 0 0;
-  background-attachment: fixed;
+
 
 }
 
