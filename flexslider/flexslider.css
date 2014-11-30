@@ -90,7 +90,7 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
-/* @media (min-width: 200px) and (max-width: 278px) {
+ @media (min-width: 200px) and (max-width: 278px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top: 24%;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px; top: 24%;}
 }
@@ -120,4 +120,3 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px; top:40%;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px; top:40%;}
 }
-*/
