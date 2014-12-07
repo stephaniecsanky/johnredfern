@@ -195,10 +195,9 @@ img {
 
 .main-head {
 		padding-left: 20px;
-
 }
 
-.flex-img a:hover {
+img.flex-img:hover {
 	opacity: 0.6;
 	filter: alpha(opacity=60);
 }
