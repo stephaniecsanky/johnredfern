@@ -198,9 +198,9 @@ img {
 
 }
 
-img.flex-img a:hover {
-	opacity: 0.4;
-	filter: alpha(opacity=40);
+.flex-img a:hover {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
 }
 	
 
