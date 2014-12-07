@@ -198,7 +198,7 @@ img {
 
 }
 
-#work-wrap img a:hover {
+img.flex-img a:hover {
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 }
