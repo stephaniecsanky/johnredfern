@@ -11,7 +11,7 @@ body {
 
 
 h1, h2, h3, h4 {
-	font-family: Calibri;
+	font-family: Calibri, Arial;
 }
 
 .btn-default {
@@ -64,9 +64,12 @@ h1, h2, h3, h4 {
 }
 
 .homeimg {
-	padding-left: 20px;
-	padding-right: 20px;
-	text-align:center;
+	margin: auto;
+	padding: auto;
+}
+
+.homeimg > ul {
+	padding-left: -40px;	
 }
 
 .homeimg > ul > li {
