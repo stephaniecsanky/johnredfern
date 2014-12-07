@@ -198,6 +198,12 @@ img {
 
 }
 
+#work-wrap img a:hover {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+	
+
 #footer a:hover {
 	color: #999;
 	text-decoration:underline;
