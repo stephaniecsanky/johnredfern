@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-default {
-	background-color:#CCC;
+	background-color:#114165;
 	border: none;
 	border-radius: 0;
 	color:#000;
@@ -12,10 +12,6 @@ body {
 
 .navbar-brand {
 	background-color: #000;
-}
-
-.navbar-nav li a:hover {
-	text-decoration:underline;
 }
 
 .navbar-toggle {
