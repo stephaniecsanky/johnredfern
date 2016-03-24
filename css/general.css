@@ -131,7 +131,6 @@ img {
 
 .about-section {
 	padding-top: 5px;
-	padding-left: 20px;
 
 }
 
@@ -208,11 +207,6 @@ img.flex-img:hover {
 	font-weight:bold;
 }
 
-@media (min-width: 992px)  {
-	.about-section {
-		margin-left: 60px;
-	}
-}
 
 
 @media (max-width: 992px) {
