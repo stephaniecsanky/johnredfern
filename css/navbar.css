@@ -20,8 +20,20 @@ body {
 
 .nav {
 	text-align:center;
-	width:auto;
+	width:750px;
+	margin:0 auto;
 	
+}
+
+.nav li {
+	float: left;
+}
+
+.nav a {
+	display: block;
+	text-align: center;
+	width: 150px;
+	text-decoration: none;
 }
 
 .container-fluid {
